@@ -2,3 +2,5 @@
 *.pkl
 *venv*
 .idea
+/mlflow/*
+!/mlflow/start_mlflow_server.sh

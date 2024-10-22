@@ -1,4 +1,4 @@
-.venv_iis
 *.csv
 *.pkl
-.venv*
+*venv*
+.idea

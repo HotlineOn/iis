@@ -45,19 +45,32 @@ cd iis
 
 
 # Настройка и обучение модели
-На настройки модели используется MLFlow...
+На настройки модели используется MLFlow
 
-Для запуска выполнить....
+Для запуска выполнить:
 ```
-Скрипты
-
+cd mlflow
+chmod +x start_mlflow_server.sh
+./start_mlflow_server.sh
 ```
-Исследования находятся в файле `...ipynb`
+Исследования находятся в директории `./research` в файлах с расширением `.ipynb`
 
 Лучшая модель показывает такой-то результат, получена в 
 `run_id = .....` 
 
 # Создание сервисов
-...
+Для создания сервиса 
+```
+{
+    "work_year": 2024,
+    "experience_level": "SE",
+    "employment_type": "FT",
+    "job_title": "Data Scientist",
+    "employee_residence": "US",
+    "remote_ratio": 50,
+    "company_location": "US",
+    "company_size": "L"
+}
+```
 
 

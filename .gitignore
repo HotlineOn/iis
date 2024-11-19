@@ -1,6 +1,7 @@
 *.csv
 *.pkl
 *venv*
+*__pycache__*
 .idea
 /mlflow/*
 !/mlflow/start_mlflow_server.sh

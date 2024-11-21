@@ -1,0 +1,1 @@
+['cat__experience_level', 'cat__job_title', 'cat__employee_residence']

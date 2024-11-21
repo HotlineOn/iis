@@ -14,7 +14,7 @@ def make_prediction(employer_id: int, item_features: dict):
     prediction = app.handler.predict(item_features)
     return ({
              'salary': prediction,
-             'employer_id': employer_id
+             'employee_id': employer_id
             })
 
 '''

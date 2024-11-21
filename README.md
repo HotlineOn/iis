@@ -100,3 +100,5 @@ chmod +x ./start_mlflow_server.sh
 
 Зарегистрированные версии моделей:
 ![reg_model](research/Модель.png)
+
+run_id модели: 8494c03e6a5b41f6933f93f6246b1f42

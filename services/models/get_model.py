@@ -13,7 +13,7 @@ if __name__ == "__main__":
     mlflow.set_tracking_uri(tracking_uri)   
     mlflow.set_registry_uri(registry_uri)   
 
-    RUN_NAME = 'ee073ab1064a49a9b05c79b4613f858d'
+    RUN_NAME = '862d49710c624401bb28470269c7c94b'
     print("trying to load from mlflow")
     loaded_model = mlflow.sklearn.load_model(f'runs:/{RUN_NAME}/models')
     print("model loaded")
